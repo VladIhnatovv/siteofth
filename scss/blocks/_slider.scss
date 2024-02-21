@@ -1,0 +1,28 @@
+.slider__container {
+}
+._container {
+}
+.slider__body {
+  display: flex;
+  flex-direction: column;
+}
+.slider__title {
+  font-family: Inter Tight;
+  font-size: 106px;
+  font-weight: 600;
+  line-height: 95px;
+  letter-spacing: -0.02em;
+  margin-bottom: 30px;
+}
+.slider__content {
+  display: flex;
+  gap: 5px;
+}
+.slider__slide {
+  padding: 148px 95px;
+  background-color: transparent;
+  border-radius: 100%;
+  white-space: nowrap;
+  animation: 5s slide infinite linear;
+  border: 1px solid #333333;
+}

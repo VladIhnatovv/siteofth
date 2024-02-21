@@ -1,0 +1,99 @@
+body {
+  font-family: "Montserrat";
+  background-color: #151515;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 120.8333333333%;
+  color: #fff;
+}
+.header {
+  padding: 30px 40px;
+  display: flex;
+  width: 100%;
+  z-index: 9999;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 15px;
+    margin-top: 30px;
+  }
+  &__content {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+  }
+  &__logo {
+    color: #151515;
+    font-family: "Inter Tight";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    text-transform: uppercase;
+  }
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+  }
+  &__contact {
+    color: #151515;
+    font-family: "Inter Tight";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 19.8px */
+    letter-spacing: -0.36px;
+    transition: all 0.5s ease-in-out 0s;
+    &:hover {
+      border-bottom: 1px solid #151515;
+      color: #000;
+      opacity: 1;
+    }
+  }
+}
+.menu {
+  display: flex;
+  &__body {
+    display: flex;
+    gap: 60px;
+  }
+  &__list {
+    display: flex;
+  }
+  &__link {
+    font-family: Inter Tight;
+    font-size: 18px;
+    color: #151515;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    margin: 0px 30px;
+    transition: all 0.4s ease-in-out 0s;
+    &:hover {
+      border-bottom: 1px solid #fff;
+      opacity: 1;
+    }
+  }
+}
+.hamburger {
+  display: none;
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #151515;
+}

@@ -1,0 +1,232 @@
+@media (max-width: 1299.98px) {
+  .titleblc__contacts {
+    flex-direction: column;
+    align-items: center;
+  }
+  .inform__item {
+    max-width: 100% !important;
+
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+    padding: 40px 60px;
+    margin: 10px 0px;
+  }
+  .secondblk__cards {
+    padding: 0px 40px;
+  }
+  .about__body {
+    flex-direction: column-reverse;
+    padding: 10px 0px;
+  }
+  .about__image img {
+    width: 100%;
+  }
+  .about__text,
+  .about__title {
+    max-width: 80%;
+  }
+  .contact__body {
+    flex-direction: column;
+    align-items: center;
+  }
+  .form {
+    width: 70% !important;
+    align-items: center !important;
+  }
+}
+@media (max-width: 999.98px) {
+  .header {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+  }
+  .header__contact,
+  .header__logo {
+    z-index: 9999;
+  }
+  .menu__list {
+    row-gap: 50px;
+    z-index: 9998;
+    position: fixed;
+    left: -100%;
+    top: 0rem;
+    display: flex;
+    padding: 100px 0px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    background-color: #151515;
+    justify-content: center;
+    color: #fff !important;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+  }
+  .menu__list.active {
+    left: 0;
+  }
+
+  .menu__link {
+    margin: 0.8rem 0;
+
+    font-size: rem(24);
+    color: #fff !important;
+  }
+  .header__contact {
+    color: #fff;
+    margin-right: 10px;
+  }
+  .header__logo {
+    color: #fff;
+  }
+  .hamburger {
+    margin-left: -30px;
+    z-index: 99999;
+    display: block;
+    cursor: pointer;
+  }
+  .bar {
+    background-color: #fff;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .header__content {
+    flex-direction: row-reverse;
+    column-gap: 40px;
+  }
+  .mainblk__title {
+    font-size: rem(68);
+  }
+  .mainblk__text {
+  }
+}
+@media (max-width: 799.98px) {
+  .header__container {
+    margin-top: 10px;
+  }
+  .mainblk__title {
+    font-size: rem(48);
+    text-align: center;
+    margin-top: 40px;
+    line-height: 48px;
+  }
+  .mainblk__about {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .mainblk__text {
+    text-align: center;
+  }
+  .header__logo {
+    font-size: rem(16);
+  }
+  .header__contact {
+    font-size: rem(12);
+  }
+  .complex__bg img {
+    padding: 0px;
+    width: 100%;
+    border-radius: 0;
+    height: 120vh;
+  }
+  .header {
+    padding: 10px 20px;
+  }
+  .mainblk__buttons {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .mainblk__button {
+    font-size: rem(14px);
+    padding: 14px 20px;
+    width: 100%;
+  }
+  .secondblk {
+    padding: 150px 0px;
+  }
+  .secondblk__cards {
+    padding: 0px 5px;
+  }
+  .card {
+    padding: 20px;
+  }
+  .secondblk__title {
+    font-size: rem(36);
+  }
+  .card__title {
+    font-size: rem(18);
+  }
+  .card__text {
+    font-size: rem(16);
+  }
+  .card__time,
+  .card__symb,
+  .card__cost,
+  .about__text,
+  .inform__txt {
+    font-size: rem(14);
+  }
+  .about__text,
+  .about__title {
+    text-align: center;
+  }
+  .about__block {
+    align-items: center;
+  }
+  .slider__title,
+  .about__title,
+  .titleblc__title {
+    font-size: rem(36) !important;
+    line-height: 42px;
+  }
+  .inform__title {
+    font-size: rem(18) !important;
+  }
+  .inform__item {
+    padding: 15px;
+  }
+  .contact__title {
+    font-size: rem(36) !important;
+  }
+  .contact__text {
+    font-size: rem(18) !important;
+  }
+  .form {
+    width: 100% !important;
+  }
+  .contact__body {
+    padding: 40px 20px !important;
+    gap: 20px !important;
+  }
+  .inform__container {
+    margin: 100px 0px !important;
+  }
+  .about,
+  .secondblk {
+    padding: 60px 0px;
+  }
+  .secondblk {
+    padding-top: 150px;
+  }
+}
+@media (max-width: 599.98px) {
+  .footer__body {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media (max-width: 420px) {
+}

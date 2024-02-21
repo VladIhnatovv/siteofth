@@ -1,0 +1,36 @@
+.about {
+  padding: 100px 0px;
+}
+.about__container {
+}
+._container {
+}
+.about__body {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20px;
+}
+.about__image img {
+  max-width: 592px;
+  max-height: 585px;
+  border-radius: 20px;
+}
+.about__block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about__title {
+  font-family: Inter Tight;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 68px;
+  letter-spacing: -0.02em;
+}
+.about__text {
+  font-family: Inter Tight;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+}

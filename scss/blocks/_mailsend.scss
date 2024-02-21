@@ -1,0 +1,104 @@
+.contact {
+  padding: 50px 0px;
+}
+input[type="text"],
+input[type="email"],
+input[type="text"] {
+  font-family: "Montserrat", sans-serif;
+  width: 50%; /* Full width */
+  padding: 12px 0px; /* Some padding */
+  /* Gray border */ /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  text-align: left;
+  color: #151515;
+  background-color: transparent;
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type="text"],
+input[type="email"],
+input[type="text"] {
+  border-bottom: 2px solid #151515;
+  font-family: Inter Tight;
+  font-size: 24px;
+  width: 100%;
+  font-weight: 600;
+  line-height: 24px;
+  color: #151515;
+  letter-spacing: -0.02em;
+}
+input[type="submit"] {
+  padding: 20px 80px;
+  border-radius: 26px;
+  gap: 10px;
+  font-family: Inter Tight;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #fff;
+  background-color: #151515;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+}
+
+input[type="submit"]:hover {
+  color: #151515;
+  border: 1px solid #151515;
+  background-color: transparent;
+}
+.form {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 50%;
+}
+.contact {
+}
+.contact__container {
+}
+._container {
+}
+.contact__body {
+  display: flex;
+  gap: 30px;
+  padding: 40px 60px;
+  background-color: #fff;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact__txtblk {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.contact__subtitle {
+  color: #151515;
+  font-family: Inter Tight;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  opacity: 0.6;
+}
+.contact__title {
+  color: #151515;
+  font-family: Inter Tight;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+}
+.contact__text {
+  font-family: Inter Tight;
+  color: #151515;
+  font-size: 24px;
+  font-weight: 500;
+  max-width: 371px;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+}
